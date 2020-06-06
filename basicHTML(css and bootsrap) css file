@@ -1,0 +1,61 @@
+/*
+select tag
+{
+  property:value;
+} */
+h1
+{
+  text-align:center;
+  font-family: 'Metal Mania', cursive;
+}
+
+body{
+  color:black;
+   background: rgba(255, 255, 255, 0.2) url(https://wallpaperplay.com/walls/full/c/8/4/14767.jpg) ;
+   background-repeat: repeat;
+  border:10px solid black;
+
+  border-style:ridge;
+}
+
+.hell
+{
+  background: yellow;
+  border:4px solid black;
+
+  padding: 20px;
+  text-align:center;
+  margin:auto;
+}
+
+div
+{
+  color:=black;
+}
+
+
+form{
+  border:3px solid yellow;
+  font-style: italic;
+
+}
+
+#table{
+  color:yellow;
+  background-color: pink ;
+  border:10px solid grey;
+
+}
+
+.gigi{
+  background:url(https://i.pinimg.com/originals/8b/31/45/8b31456c5592964b8ef9597f04cd5ce3.jpg)  ;
+  background-repeat: no-repeat;
+  background-size:500px;
+  font:italic;
+  border:2px solid black;
+  margin:auto;
+  padding:2px;
+
+  height:500px;
+  width:500px;
+}

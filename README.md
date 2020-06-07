@@ -17,5 +17,14 @@ basicHTML(css and bootstrap) contains following
 3.advance css.
 
 
-basicHTML(css and bootstrap) css contains following
+basicHTML(css and bootstrap) css file contains following
 1.css file for above HTML file.
+
+
+basicHTML(css and bootstrap) js file contains following
+1. basic commands 
+2. loops
+3. objects
+4. arrays
+5. functions 
+

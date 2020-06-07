@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BASIC</title>
+
+    <!-- link for google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+
+    <!-- link for bootstrap(cdn) online -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+    <!-- link for css file -->
+    <link rel="stylesheet" href="basic.css">
+
+    <!-- link for javascript file -->
+    <script src="basic.js"></script>
+
+
+
+  </head>
+  <body>
+    <h1>first heading</h1>
+    <p>hello this is the first line</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <<br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <ol>
+      <li>building sadfuctre</li>
+      <li>using data</li>
+        <ul>
+          <li>teasdfg phase </li>
+          <li>moasdfbase</li>
+          <li>lasdfv</li>
+        </ul>
+      <li>landing in the market</li>
+      <ul>
+        <li>targeting  </li>
+        <li>small</li>
+        <li>jasdlfkjkl </li>
+      </ul>
+    </ol>
+
+    <br>
+    <br>
+    <!-- <br> this for the extra line in the page -->
+    <br>
+
+
+    <!-- now learning the divs and spans -->
+    <p>span and div</p>
+    <div class="hell">
+
+      <p>Lorem ipsum dolor sit amet,<strong>consectetur adipisicing elit, sed do eiusmod tempo</strong> mod tempo <span>r incididunt ut labore et dolore magna aliqua</span>. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    </div>
+
+    <!-- image ading or link -->
+    <br>
+    <br>
+    <p>adding link and or referencing a image</p>
+    <img src="lll  https://m.economictimes.com/thumb/msid-59681225,width-1200,height-900,resizemode-4,imgsize-226895/magazines/panache/supermodel-gigi-hadid-dishes-out-her-ultimate-solution-to-deal-with-pressure/gigihadid.jpg" alt="she is not your's lol">
+   <a href="https//www.youtube.com">youtube</a>
+
+
+
+
+    <!-- tables an -->
+    <table border="2" id="table">
+      <thead>
+        <th>name</th>
+        <th>class</th>
+        <th>roll no</th>
+      </thead>
+      <tr>
+        <td>kanav</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>patuu</td>
+        <td>2</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td><img src="https://m.economictimes.com/thumb/msid-59681225,width-1200,height-900,resizemode-4,imgsize-226895/magazines/panache/supermodel-gigi-hadid-dishes-out-her-ultimate-solution-to-deal-with-pressure/gigihadid.jpg" alt="" height="300px" width="300px"></td>
+        <td>3</td>
+        <td>3</td>
+      </tr>
+    </table>
+
+    <br><br><br><br>
+
+
+    <!-- form and buttons inputs --><!-- label and submit buttons buttons -->
+
+
+    <form class="" action="https://www.facebook.com/" method="post">
+      <p>forms for login id </p>
+      <label>
+        <p>email</p>
+        <input type="email" name="mail" value="enter the email">
+      </label>
+
+      <label>
+        <p>enter the name: </p>
+        <input type="text" name="" placeholder="enter the name">
+
+        <input type="submit" name="name1" value="submit" required>
+      </label>
+
+      <label>
+        <p>CHOOSE A COLOR</p>
+      <input type="color" name="" value="">
+      </label>
+
+    </form>
+
+<br><br><br>
+    <!-- textarea,selection buttons, dropdown menu and radio buttons -->
+    <form class="" action="index.html" method="get">
+      <h1>hotel feedback form</h1>
+
+    <p> are you from Himachal or outside from Himachal</p>
+
+      <label for="inh"> inside</label>
+      <input id="inh" type="radio" name="loc" value="">
+
+      <label for="ouh">outside</label>
+      <input id="ouh" type="radio" name="loc" value="">
+
+      <!-- selection tags -->
+      <br><br><br><br>
+      <h3>how was the service?</h3>
+      <select class="" name="rating">
+        <option value="great">3</option>
+        <option value="good">2</option>
+        <option value="poor">1</option>
+
+      </select>
+
+      <input type="submit" name="" value="submit">
+
+    </form>
+
+    <br><br><br><br><br>
+
+    <textarea name="feedback" rows="30" cols="50" placeholder="i want to say that "></textarea>
+
+    <!-- making table ,borders etc using bootstrap classes -->
+
+    <div class="container">
+      <h1>BOOTSTRAP container CLASS</h1>
+
+      <!-- buttons using bootstrap -->
+
+      <button type="button" class="btn btn-outline-primary">Pppp</button>
+      <button type="button" class="btn btn-outline-secondary">kkkk</button>
+      <button type="button" class="btn btn-outline-success">Mmmm</button>
+      <button type="button" class="btn btn-outline-danger">bbbb</button>
+
+    </div>
+
+
+    <!-- table using bootstrap commands  -->
+<br><br><br><br>
+    <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<br><br><br>
+
+
+<!-- jumbotrons with bootstrap -->
+
+<div  class="jumbotron" action="">
+  <h1 class="display-4">Hello, everyone </h1>
+  <p class="lead">This a simple webpage, with all the bsics used for making a website page.</p>
+  <hr class="my-4">
+  <p><strong>use the link below for bootstrap documentation and more features</strong> </p>
+  <a class="btn btn-primary btn-lg" href="https://getbootstrap.com/docs/4.5/getting-started/introduction/" role="button">Learn more</a>
+</div>
+
+
+<div class="gigi">
+<h1>this is the end of the webpage</h1>
+</div>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>

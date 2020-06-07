@@ -1,0 +1,112 @@
+alert("hello,Welcome to the website");
+
+var x=prompt("enter your name: ");
+
+alert("you entered this :"+x);
+
+console.log("now you are in the website");
+
+
+// control flow statements in javascript
+
+var y=prompt("enter the number :");
+if(y%2===0)
+{
+  console.log("y is a even number");
+}
+else {
+console.log("y is a odd number");
+}
+
+
+//while loop for the printing evern numbers
+console.log("while loop");
+
+var k=0;
+
+while(k<10)
+{
+  if(k%2==0)
+  {
+    console.log(k+" is a even number ");
+  }
+
+  else {
+    console.log(k+" is a odd number ");
+  }
+
+  k=k+1;
+}
+
+//for loop
+console.log("for loop");
+var word="gigihadid"
+for(var i=0;i<=word.length;i++)
+{
+  console.log(word[i]);
+}
+
+//funtions in javascript
+
+ function hello(name) {
+   console.log("hello "+name);
+ }
+
+// adding two numbers
+function add(num1,num2)
+{
+  console.log("the sum of the number is :"+(num1+num2));
+
+}
+
+//array in javascript
+
+name=["kanav","patuu","nunu"];
+
+name[1];
+
+// array is mutabel
+name[1]="shubham";
+
+// for length of array
+
+name.length;
+
+
+// for loop for accesing array elements
+
+for(k of name)
+{
+  console.log(k);
+}
+
+
+// applying a function on each element of array or lamda in javascript
+
+// using length function defined above
+function length(text)
+{
+  text.length();
+}
+
+
+
+// objects in javascript
+
+var obj=
+{
+  kanav:'20',
+  patuu:'21',
+  nunu:'69',
+  mymethod:function() {
+    console.log(this.patuu+"madarc#@@!")
+  }
+};
+// accesing info of the whole object
+console.dir(obj);
+
+// accesing elements of object using for loop
+for(j in obj)
+{
+  console.log(j);
+}
